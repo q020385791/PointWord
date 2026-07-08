@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="PointWord.Core/PointWord.Core.csproj" />
+  <Project Path="PointWord/PointWord.csproj" />
+</Solution>
