@@ -128,14 +128,3 @@ GridCount * CellSizePx
 ```
 
 PerChar Blocks 模式下，寬高會依照字數、`Block Columns`、單格方塊大小與 `Block Spacing` 計算。
-
-## Git 上傳提醒
-
-第一次上傳到 GitHub 前，建議先建立 `.gitignore`，避免把 `.vs/`、`bin/`、`obj/` 等編譯輸出一起加入版本控制：
-
-```powershell
-dotnet new gitignore
-git add .gitignore README.md AGENTS.md PointWord.slnx PointWord PointWord.Core
-git commit -m "Initial commit"
-git push -u origin main
-```
